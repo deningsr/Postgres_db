@@ -1,4 +1,4 @@
-### Udacity Data Engineering NanoDegree Project 1: Postgres Database
+## Udacity Data Engineering NanoDegree Project 1: Postgres Database
 
 #### Project rubric can be found here: https://review.udacity.com/#!/rubrics/2500/view
 
