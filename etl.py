@@ -23,6 +23,7 @@ def process_song_file(cur, filepath):
     # only inserts the first record from the artists dimension table created earlier
     artist_data = df[['artist_id', 'artist_name', 'artist_location', 'artist_latitude', 'artist_longitude']].values[0]
     cur.execute(artist_table_insert, artist_data)
+    
 def process_log_file(cur, filepath):
     '''
     Purpose of this function:
